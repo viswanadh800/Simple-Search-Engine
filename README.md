@@ -13,6 +13,8 @@ When user enters his query,named as keyword, in textbox and clicks Serach button
 When frontend receives webpage, it displays in user interface.
 <h3>Feature2 - History</h3>
 When user clicks History button, control will to History servlet in backend. This servlet will create history.jsp file with entries from history table of database. This file is sent to frontend amd it displays it.
+<h3>Working of Crawler</h3>
+Code in Crawler is used to fill database used by SearchEngine. This code will crawl across www with starting point as <b>https://www.javatpoint.com</b>. I implemented this crawling using limited dfs algorithm.  
 <h1>Softwares required to run this project</h1>
 1) IntelliJ Idea(Community version is enough)<br>
 2) MySQL server with MySQL shell or MySQL Workbench
